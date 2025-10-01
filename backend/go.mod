@@ -1,4 +1,4 @@
-module github.com/Zeus-Labs/ZeusCloud
+module github.com/Axionore/ZeusCloud
 
 go 1.17
 

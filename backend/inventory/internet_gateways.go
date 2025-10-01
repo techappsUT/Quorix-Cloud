@@ -3,7 +3,7 @@ package inventory
 import (
 	"log"
 
-	"github.com/Zeus-Labs/ZeusCloud/util"
+	"github.com/Axionore/ZeusCloud/util"
 	"github.com/hashicorp/go-multierror"
 	"github.com/neo4j/neo4j-go-driver/v4/neo4j"
 )

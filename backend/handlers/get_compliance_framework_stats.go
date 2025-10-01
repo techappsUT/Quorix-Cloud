@@ -6,9 +6,9 @@ import (
 	"math"
 	"net/http"
 
-	"github.com/Zeus-Labs/ZeusCloud/models"
+	"github.com/Axionore/ZeusCloud/models"
 
-	"github.com/Zeus-Labs/ZeusCloud/compliance"
+	"github.com/Axionore/ZeusCloud/compliance"
 	"gorm.io/gorm"
 )
 

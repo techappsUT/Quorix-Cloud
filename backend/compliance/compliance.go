@@ -1,6 +1,6 @@
 package compliance
 
-import "github.com/Zeus-Labs/ZeusCloud/rules/types"
+import "github.com/Axionore/ZeusCloud/rules/types"
 
 type ComplianceFrameworkSpec struct {
 	FrameworkName               string

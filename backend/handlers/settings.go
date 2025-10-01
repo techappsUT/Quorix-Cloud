@@ -7,8 +7,8 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/Zeus-Labs/ZeusCloud/control"
-	"github.com/Zeus-Labs/ZeusCloud/models"
+	"github.com/Axionore/ZeusCloud/control"
+	"github.com/Axionore/ZeusCloud/models"
 	"gorm.io/gorm"
 	"gorm.io/gorm/clause"
 )

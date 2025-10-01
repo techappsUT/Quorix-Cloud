@@ -1,20 +1,20 @@
 package compliance
 
 import (
-	"github.com/Zeus-Labs/ZeusCloud/rules/cloudtrail"
-	"github.com/Zeus-Labs/ZeusCloud/rules/cloudwatch"
-	"github.com/Zeus-Labs/ZeusCloud/rules/ec2"
-	"github.com/Zeus-Labs/ZeusCloud/rules/elasticsearch"
-	"github.com/Zeus-Labs/ZeusCloud/rules/elbv2"
-	"github.com/Zeus-Labs/ZeusCloud/rules/iam"
-	"github.com/Zeus-Labs/ZeusCloud/rules/kms"
-	"github.com/Zeus-Labs/ZeusCloud/rules/rds"
-	"github.com/Zeus-Labs/ZeusCloud/rules/s3"
-	"github.com/Zeus-Labs/ZeusCloud/rules/secretsmanager"
-	"github.com/Zeus-Labs/ZeusCloud/rules/securityhub"
-	"github.com/Zeus-Labs/ZeusCloud/rules/sqs"
-	"github.com/Zeus-Labs/ZeusCloud/rules/types"
-	"github.com/Zeus-Labs/ZeusCloud/rules/vpc"
+	"github.com/Axionore/ZeusCloud/rules/cloudtrail"
+	"github.com/Axionore/ZeusCloud/rules/cloudwatch"
+	"github.com/Axionore/ZeusCloud/rules/ec2"
+	"github.com/Axionore/ZeusCloud/rules/elasticsearch"
+	"github.com/Axionore/ZeusCloud/rules/elbv2"
+	"github.com/Axionore/ZeusCloud/rules/iam"
+	"github.com/Axionore/ZeusCloud/rules/kms"
+	"github.com/Axionore/ZeusCloud/rules/rds"
+	"github.com/Axionore/ZeusCloud/rules/s3"
+	"github.com/Axionore/ZeusCloud/rules/secretsmanager"
+	"github.com/Axionore/ZeusCloud/rules/securityhub"
+	"github.com/Axionore/ZeusCloud/rules/sqs"
+	"github.com/Axionore/ZeusCloud/rules/types"
+	"github.com/Axionore/ZeusCloud/rules/vpc"
 )
 
 var Pci_dss_3_2_1_Spec ComplianceFrameworkSpec = ComplianceFrameworkSpec{

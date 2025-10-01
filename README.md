@@ -47,7 +47,7 @@ Discover, prioritize, and remediate your risks in the cloud.
 
 ## Quick Start
 
-1. Clone repo: `git clone --recurse-submodules git@github.com:Zeus-Labs/ZeusCloud.git`
+1. Clone repo: `git clone --recurse-submodules git@github.com:Axionore/ZeusCloud.git`
 2. Run: `cd ZeusCloud && make quick-deploy`
 3. Visit http://localhost:80
 
@@ -127,7 +127,7 @@ Please do not run ZeusCloud exposed to the public internet. Use the latest versi
 
 ## Open-source vs. cloud-hosted
 
-This repo is freely available under the [Apache 2.0 license](https://github.com/Zeus-Labs/ZeusCloud/blob/main/LICENSE).
+This repo is freely available under the [Apache 2.0 license](https://github.com/Axionore/ZeusCloud/blob/main/LICENSE).
 
 We're working on a cloud-hosted solution which handles deployment and infra management. Contact us at founders@zeuscloud.io for more information!
 

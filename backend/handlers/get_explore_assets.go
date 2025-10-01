@@ -5,7 +5,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/Zeus-Labs/ZeusCloud/inventory"
+	"github.com/Axionore/ZeusCloud/inventory"
 	"github.com/neo4j/neo4j-go-driver/v4/neo4j"
 )
 

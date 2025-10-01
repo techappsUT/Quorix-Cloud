@@ -1,12 +1,12 @@
 package compliance
 
 import (
-	"github.com/Zeus-Labs/ZeusCloud/rules/cloudtrail"
-	"github.com/Zeus-Labs/ZeusCloud/rules/cloudwatch"
-	"github.com/Zeus-Labs/ZeusCloud/rules/iam"
-	"github.com/Zeus-Labs/ZeusCloud/rules/kms"
-	"github.com/Zeus-Labs/ZeusCloud/rules/types"
-	"github.com/Zeus-Labs/ZeusCloud/rules/vpc"
+	"github.com/Axionore/ZeusCloud/rules/cloudtrail"
+	"github.com/Axionore/ZeusCloud/rules/cloudwatch"
+	"github.com/Axionore/ZeusCloud/rules/iam"
+	"github.com/Axionore/ZeusCloud/rules/kms"
+	"github.com/Axionore/ZeusCloud/rules/types"
+	"github.com/Axionore/ZeusCloud/rules/vpc"
 )
 
 var Cis_1_2_0_Spec ComplianceFrameworkSpec = ComplianceFrameworkSpec{

@@ -5,9 +5,9 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/Zeus-Labs/ZeusCloud/rules"
-	"github.com/Zeus-Labs/ZeusCloud/rules/processgraph"
-	"github.com/Zeus-Labs/ZeusCloud/rules/types"
+	"github.com/Axionore/ZeusCloud/rules"
+	"github.com/Axionore/ZeusCloud/rules/processgraph"
+	"github.com/Axionore/ZeusCloud/rules/types"
 
 	"github.com/neo4j/neo4j-go-driver/v4/neo4j"
 )
