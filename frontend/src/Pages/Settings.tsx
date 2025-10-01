@@ -31,7 +31,7 @@ const Settings = () => {
     ]
     return (
         <div className="min-h-full">
-            <Banner bannerHeader='Settings' bannerDescription='Connect your cloud accounts and run ZeusCloud security scans.' />
+            <Banner bannerHeader='Settings' bannerDescription='Connect your cloud accounts and run QuorixCloud security scans.' />
             <div className="px-4 sm:px-6 lg:px-8 py-2 sm:py-3 lg:py-4">
                 <div className="flex flex-col mx-auto w-11/12">
                     <Tabs tabs={tabs} current={current} setCurrent={setCurrent}/>

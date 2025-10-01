@@ -6,7 +6,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/Axionore/ZeusCloud/models"
+	"github.com/Axionore/QuorixCloud/models"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 )

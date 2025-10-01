@@ -5,8 +5,8 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/Axionore/ZeusCloud/compliance"
-	"github.com/Axionore/ZeusCloud/models"
+	"github.com/Axionore/QuorixCloud/compliance"
+	"github.com/Axionore/QuorixCloud/models"
 	"gorm.io/gorm"
 )
 
@@ -95,7 +95,7 @@ func GetComplianceFramework(postgresDb *gorm.DB) func(w http.ResponseWriter, r *
 					ControlName:     controlSpec.ControlName,
 					Comment:         controlSpec.Comment,
 					RuleAlertsGroup: make([]RuleAlert, 0)}
-				for _, ruleId := range controlSpec.ZeusCloudRules {
+				for _, ruleId := range controlSpec.QuorixCloudRules {
 					mappedRuleData, ok := ruleIdToRuleData[ruleId.UID()]
 					if !ok {
 						log.Printf("issue matching rules and alerts")

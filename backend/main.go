@@ -6,16 +6,16 @@ import (
 	"os"
 	"time"
 
-	"github.com/Axionore/ZeusCloud/control"
-	"github.com/Axionore/ZeusCloud/models"
-	"github.com/Axionore/ZeusCloud/rules"
-	"github.com/Axionore/ZeusCloud/rules/types"
-	"github.com/Axionore/ZeusCloud/rules/vulnerability"
+	"github.com/Axionore/QuorixCloud/control"
+	"github.com/Axionore/QuorixCloud/models"
+	"github.com/Axionore/QuorixCloud/rules"
+	"github.com/Axionore/QuorixCloud/rules/types"
+	"github.com/Axionore/QuorixCloud/rules/vulnerability"
 
-	"github.com/Axionore/ZeusCloud/constants"
-	"github.com/Axionore/ZeusCloud/db"
-	"github.com/Axionore/ZeusCloud/handlers"
-	"github.com/Axionore/ZeusCloud/middleware"
+	"github.com/Axionore/QuorixCloud/constants"
+	"github.com/Axionore/QuorixCloud/db"
+	"github.com/Axionore/QuorixCloud/handlers"
+	"github.com/Axionore/QuorixCloud/middleware"
 )
 
 const scanStatusInterval = 5 * time.Second
@@ -94,7 +94,7 @@ func main() {
 	// For demo environment, attempt to add account to kick of cartography.
 	if os.Getenv("MODE") == constants.DemoEnvModeStr {
 		accountError := handlers.ManualAddAccountDetails(postgresDb, models.AccountDetails{
-			AccountName:      "ZeusCloudDemo",
+			AccountName:      "QuorixCloudDemo",
 			ConnectionMethod: "profile",
 			Profile:          "default",
 		})

@@ -21,7 +21,7 @@
 </div>
 
 <!-- omit in toc -->
-## ZeusCloud is an open source cloud security platform. 
+## QuorixCloud is an open source cloud security platform. 
 
 Discover, prioritize, and remediate your risks in the cloud. 
 
@@ -38,7 +38,7 @@ Discover, prioritize, and remediate your risks in the cloud.
 - [Quick Start](#quick-start)
 - [Sandbox](#sandbox)
 - [Features](#features)
-- [Why ZeusCloud?](#why-zeuscloud)
+- [Why QuorixCloud?](#why-zeuscloud)
 - [Future Roadmap](#future-roadmap)
 - [Contributing](#contributing)
 - [Development](#development)
@@ -47,8 +47,8 @@ Discover, prioritize, and remediate your risks in the cloud.
 
 ## Quick Start
 
-1. Clone repo: `git clone --recurse-submodules git@github.com:Axionore/ZeusCloud.git`
-2. Run: `cd ZeusCloud && make quick-deploy`
+1. Clone repo: `git clone --recurse-submodules git@github.com:Axionore/QuorixCloud.git`
+2. Run: `cd QuorixCloud && make quick-deploy`
 3. Visit http://localhost:80
 
 Check out our [Get Started](https://docs.zeuscloud.io/introduction/get-started) guide for 
@@ -58,11 +58,11 @@ A cloud-hosted version is available on special request - email founders@zeusclou
 
 ## Sandbox
 
-Play around with [our sandbox environment](https://demo.zeuscloud.io) to see how ZeusCloud identifies, prioritizes, and remediates risks in the cloud!
+Play around with [our sandbox environment](https://demo.zeuscloud.io) to see how QuorixCloud identifies, prioritizes, and remediates risks in the cloud!
 
 ## Features
 
-![ZeusCloud](https://user-images.githubusercontent.com/20483346/233917373-fbaf6651-c446-4e3a-b23d-9eb1133e49ac.gif)
+![QuorixCloud](https://user-images.githubusercontent.com/20483346/233917373-fbaf6651-c446-4e3a-b23d-9eb1133e49ac.gif)
 
 * **Discover Attack Paths** - Discover toxic risk combinations an attacker can use to penetrate your environment.
 * **Graphical Context** - Understand context behind security findings with graphical visualizations.
@@ -74,15 +74,15 @@ Play around with [our sandbox environment](https://demo.zeuscloud.io) to see how
 * **Compliance** - Ensure your cloud posture is compliant with PCI DSS, CIS benchmarks and more!
 
 
-## Why ZeusCloud?
+## Why QuorixCloud?
 Cloud usage continues to grow. Companies are shifting more of their workloads from on-prem to the cloud and both adding and expanding new and existing workloads in the cloud. Cloud providers keep increasing their offerings and their complexity. Companies are having trouble keeping track of their security risks as their cloud environment scales and grows more complex. Several high profile attacks have occurred in recent times. Capital One had an S3 bucket breached, Amazon had an unprotected Prime Video server breached, Microsoft had an Azure DevOps server breached, Puma was the victim of ransomware, etc.
 
 We had to take action.
 
 - We noticed traditional cloud security tools are opaque, confusing, time consuming to set up, and expensive as you scale your cloud environment
 - Cybersecurity vendors don't provide much actionable information to security, engineering, and devops teams by inundating them with non-contextual alerts
-- ZeusCloud is easy to set up, transparent, and configurable, so you can prioritize the most important risks 
-- Best of all, you can use **ZeusCloud for free**!
+- QuorixCloud is easy to set up, transparent, and configurable, so you can prioritize the most important risks 
+- Best of all, you can use **QuorixCloud for free**!
 
 ## Future Roadmap
 - Integrations with vulnerability scanners
@@ -94,7 +94,7 @@ We had to take action.
 We love contributions of all sizes. What would be most helpful first: 
 
 - Please give us feedback in our [Slack](https://join.slack.com/t/ironleapcommunity/shared_invite/zt-1oxm8asmq-4oyM4fdqarSHMoMstGH6Lw).
-- Open a PR (see our instructions below on developing ZeusCloud locally)
+- Open a PR (see our instructions below on developing QuorixCloud locally)
 - Submit a feature request or bug report through Github Issues.
 
 
@@ -123,12 +123,12 @@ To access the UI, go to: http://localhost:80.
 
 ## Security
 
-Please do not run ZeusCloud exposed to the public internet. Use the latest versions of ZeusCloud to get all security related patches. Report any security vulnerabilities to founders@zeuscloud.io. 
+Please do not run QuorixCloud exposed to the public internet. Use the latest versions of QuorixCloud to get all security related patches. Report any security vulnerabilities to founders@zeuscloud.io. 
 
 ## Open-source vs. cloud-hosted
 
-This repo is freely available under the [Apache 2.0 license](https://github.com/Axionore/ZeusCloud/blob/main/LICENSE).
+This repo is freely available under the [Apache 2.0 license](https://github.com/Axionore/QuorixCloud/blob/main/LICENSE).
 
 We're working on a cloud-hosted solution which handles deployment and infra management. Contact us at founders@zeuscloud.io for more information!
 
-Special thanks to the amazing [Cartography](https://github.com/lyft/cartography) project, which ZeusCloud uses for its asset inventory. Credit to PostHog and Airbyte for inspiration around public-facing materials - like this README!
+Special thanks to the amazing [Cartography](https://github.com/lyft/cartography) project, which QuorixCloud uses for its asset inventory. Credit to PostHog and Airbyte for inspiration around public-facing materials - like this README!

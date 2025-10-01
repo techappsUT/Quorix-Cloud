@@ -193,7 +193,7 @@ const Alerts = () => {
         :(notFound 
         ? <NotFound /> 
         : <div className="min-h-full">
-            <Banner bannerHeader='Alerts' bannerDescription='Investigate failing findings for your active ZeusCloud rules.' />
+            <Banner bannerHeader='Alerts' bannerDescription='Investigate failing findings for your active QuorixCloud rules.' />
             <div className="px-4 sm:px-6 lg:px-8 py-2 sm:py-3 lg:py-4">
                 <div className="flex flex-col mx-auto w-11/12">
                     <Tabs tabs={tabs} current={current} setCurrent={setCurrent} navigateOnTabClick={navigateOnTabClick}/>

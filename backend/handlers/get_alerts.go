@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/Axionore/ZeusCloud/models"
+	"github.com/Axionore/QuorixCloud/models"
 	"gorm.io/gorm"
 )
 

@@ -1,6 +1,6 @@
 package compliance
 
-import "github.com/Axionore/ZeusCloud/rules/types"
+import "github.com/Axionore/QuorixCloud/rules/types"
 
 type ComplianceFrameworkSpec struct {
 	FrameworkName               string
@@ -14,7 +14,7 @@ type ComplianceControlGroupSpec struct {
 
 type ComplianceControlSpec struct {
 	ControlName    string
-	ZeusCloudRules []types.Rule
+	QuorixCloudRules []types.Rule
 	Comment        string
 }
 

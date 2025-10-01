@@ -10,10 +10,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Axionore/ZeusCloud/rules"
-	"github.com/Axionore/ZeusCloud/rules/types"
+	"github.com/Axionore/QuorixCloud/rules"
+	"github.com/Axionore/QuorixCloud/rules/types"
 
-	"github.com/Axionore/ZeusCloud/models"
+	"github.com/Axionore/QuorixCloud/models"
 
 	"github.com/neo4j/neo4j-go-driver/v4/neo4j"
 	"gorm.io/gorm"

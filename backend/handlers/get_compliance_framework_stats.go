@@ -6,9 +6,9 @@ import (
 	"math"
 	"net/http"
 
-	"github.com/Axionore/ZeusCloud/models"
+	"github.com/Axionore/QuorixCloud/models"
 
-	"github.com/Axionore/ZeusCloud/compliance"
+	"github.com/Axionore/QuorixCloud/compliance"
 	"gorm.io/gorm"
 )
 
@@ -44,7 +44,7 @@ func GetComplianceFrameworkStats(postgresDb *gorm.DB) func(w http.ResponseWriter
 			for _, controlSpec := range groupSpec.ComplianceControlSpecs {
 				// Get rules for every single compliance control. If it has no alerts
 				// or all alerts are passing it works well.
-				for _, ruleId := range controlSpec.ZeusCloudRules {
+				for _, ruleId := range controlSpec.QuorixCloudRules {
 
 					// Get alerts for every rule id.
 					var ruleResultLst []models.RuleResult

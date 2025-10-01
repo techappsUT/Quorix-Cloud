@@ -24,7 +24,7 @@ const Rules = () => {
 
     return (
         <div className="min-h-full">
-            <Banner bannerHeader='Rules' bannerDescription='Detect your risks in the cloud by configuring ZeusCloud rules.' />
+            <Banner bannerHeader='Rules' bannerDescription='Detect your risks in the cloud by configuring QuorixCloud rules.' />
             <div className="px-4 sm:px-6 lg:px-8 py-2 sm:py-3 lg:py-4">
                 <div className="flex flex-col mx-auto w-11/12">
                     <Tabs tabs={tabs} current={current} setCurrent={setCurrent}/>

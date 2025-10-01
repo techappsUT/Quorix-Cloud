@@ -1,4 +1,4 @@
-module github.com/Axionore/ZeusCloud
+module github.com/Axionore/QuorixCloud
 
 go 1.17
 

@@ -3,7 +3,7 @@ package elasticsearch
 import (
 	"fmt"
 
-	"github.com/Axionore/ZeusCloud/rules/types"
+	"github.com/Axionore/QuorixCloud/rules/types"
 	"github.com/neo4j/neo4j-go-driver/v4/neo4j"
 )
 
